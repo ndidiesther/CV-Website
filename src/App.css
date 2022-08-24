@@ -268,8 +268,8 @@ body {
   width: 100%;
 }
 .banner-container {
-  margin-top: 225px;
-  height: 470px;
+  margin-top: 285px;
+  height: 437px;
   width: 470px;
   background-color: var(--color5);
   color: var(--color1);
@@ -464,7 +464,21 @@ color:var(--color1)
   letter-spacing: 0.2em;
   text-align: center;
 }
+.port_content, .port_content > img {
+  width:300px;
+  height: auto;
+}
 
+.max_rider {
+  width: 300px !important;
+  height: 300px !important;
+}
+a {
+  text-decoration: none;
+  color:var(--color1);
+  font-weight: bold;
+  font-size: 18px;
+}
 /* .experience,
 .contact,
 .skills,

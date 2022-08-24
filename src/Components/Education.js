@@ -8,15 +8,15 @@ const Education = React.forwardRef(({}, myref) => (
     <div className="education-content">
       <div className="content-card edu-content">
         <div>
-          <p>2002 - 2007</p>
-          <p>L.A University of Applied Sciences </p>
+          <p>2015 - 2021</p>
+          <p>University of Benin </p>
         </div>
        
 
         <div>
-          <p>Computer Science</p>
+          <p>Electrical and Electronic Engineering</p>
           <p>
-            Bachelor of Science <br/>
+            Bachelor of Engineering <br/>
            <i>Grade:</i> First Class
           </p>
         </div>

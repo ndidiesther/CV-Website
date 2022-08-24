@@ -8,24 +8,23 @@ const Experience = React.forwardRef(({}, myref) => (
     <div className="experience-content">
       <div className="content-card exp-content">
         <div>
-          <p>2020 - Present</p>
-          <p>Senior Software Developer</p>
+          <p>June 2022 - Present</p>
+          <p>Junior web Developer</p>
         </div>
 
         <div>
-          <p>Acra Payments</p>
+          <p>Paritie Dynamic Enterprise Limited</p>
           <p>
-            Develop, upgrade, and maintain advanced financial industry software.
-            Coordinate the design and implementation of various applications,
-            including collaboration with project managers, and client
-            representative and development teams. Provide mentoring services to
-            junior developers as needed.
+            Proficient in building web user interfaces that are more user
+            interactive using Html, CSS, Javascript, React, ES6 and typescript.
+            Built an ecommerce web app with working cart functionalities and
+            highly responsive user interface components using react concepts.
           </p>
         </div>
       </div>
       <div className="content-card exp-content">
         <div>
-          <p>2018 - 2020</p>
+          <p>Aug. 2020 - Nov. 2021</p>
           <p>Junior web developer</p>
         </div>
 
@@ -42,18 +41,18 @@ const Experience = React.forwardRef(({}, myref) => (
       </div>
       <div className="content-card exp-content">
         <div>
-          <p>2015 - 2016</p>
-          <p>Ip Intern</p>
+          <p>Aug. 2019 - Jan. 2020</p>
+          <p>IP Intern</p>
         </div>
 
         <div>
           <p>Mainone</p>
           <p>
-            Acquired basic skills in critical thinking and problem solving,
-            effective professional communication, team building and creative
-            writing. Worked with a team comprising of product manager, product
-            designer, data scientist, frontend and backend developers in
-            developing a telemedicine app. 
+            Undertook a training on Networking devices and terminologies.
+            Assisted in the provisioning of services to new customers alongside
+            IP Engineers. Configuring and troubleshooting Cisco routers and
+            switches. Preparing Handover documents after services has been
+            provisioned and activated.
           </p>
         </div>
       </div>

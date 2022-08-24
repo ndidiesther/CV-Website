@@ -10,24 +10,24 @@ const Skills = React.forwardRef(({}, myref) => (
         <div className="skills-content col-12">
           <div className="sub-content col-6">
           <div>
-            <p>Microsoft Office - Advanced</p>
-          </div>
-          <div>
             <p>Javascript - Intermediate</p>
           </div>
           <div>
-            <p>Python - Proficient</p>
+            <p>React - Proficient</p>
+          </div>
+          <div>
+            <p>HTML/CSS - Advanced</p>
           </div>
           </div>
            <div className=" sub-content col-6">
            <div>
-            <p>Adobe - Proficient</p>
+            <p>TypeScript - Intermediate</p>
           </div>
           <div>
-            <p>French - Mother Tongue</p>
+            <p>Tailwind CSS - Proficient</p>
           </div>
           <div>
-            <p>MicroController - Advanced </p>
+            <p>Linux:Ubuntu - Proficient </p>
           </div>
           </div>
          

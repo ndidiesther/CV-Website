@@ -1,38 +1,39 @@
 import React from "react";
 import banner from "../Images/banner.jpg";
+import PIC from "../Images/pic.jpg"
 
-const Banner = () => {
-  return (
-    <div>
+const Banner = React.forwardRef(({}, myref) => (
+    <div ref={myref}>
       <div className="main-container" style={styles.header}>
         <div style={styles.content}>
           <div className="main-container">
             <div className="banner-container">
-              <img src={banner} />
+              {/* <img src={banner} /> */}
+              <img src={PIC} />
             </div>
             <div className="banner-container">
               <div className="banner-content">
                 <div>
-                  <p className="b-name">Rachel Smith</p>
+                  <p className="b-name">Ndidi Esther Chibogu</p>
                   <p className="b-title">Software Developer</p>
                 </div>
                 <div className="b-phone">
                   <p>Phone:</p>
-                  <p>123-456-7890</p>
+                  <p>+2348122015915</p>
                 </div>
                 <div className="b-email">
                   <p>Email:</p>
-                  <p>info@mysite.com</p>
+                  <p>estherchibogu@gmail.com</p>
                 </div>
                 <div className="b-address">
                   <p>Address:</p>
                   <p>
-                    500 Terry Francois Street <br /> San Francisco, CA 9415
+                    Sauka Kahuta, Minna, Niger State
                   </p>
                 </div>
                 <div className="b-date">
                   <p>Date of Birth:</p>
-                  <p>March 14th, 1984</p>
+                  <p>June 17th, 1998</p>
                 </div>
               </div>
             </div>
@@ -40,8 +41,7 @@ const Banner = () => {
         </div>
       </div>
     </div>
-  );
-};
+  ));
 
 export default Banner;
 const styles = {
