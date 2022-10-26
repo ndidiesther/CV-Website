@@ -1,17 +1,18 @@
 import React from "react";
 import banner from "../Images/banner.jpg";
-import PIC from "../Images/pic.jpg"
+import PIC from "../Images/pic.jpg";
 
 const Banner = React.forwardRef(({}, myref) => (
-    <div ref={myref}>
-      <div className="main-container" style={styles.header}>
-        <div style={styles.content}>
-          <div className="main-container">
-            <div className="banner-container">
-              {/* <img src={banner} /> */}
-              <img src={PIC} />
-            </div>
-            <div className="banner-container">
+  <div ref={myref}>
+    <div className="main-container" style={styles.header}>
+      <div style={styles.content}>
+        <div className="main-container">
+          <div className="banner-container">
+            {/* <img src={banner} /> */}
+            <img src={PIC} />
+          </div>
+          <div className="banner-container">
+            <div className="sub-banner">
               <div className="banner-content">
                 <div>
                   <p className="b-name">Ndidi Esther Chibogu</p>
@@ -27,21 +28,20 @@ const Banner = React.forwardRef(({}, myref) => (
                 </div>
                 <div className="b-address">
                   <p>Address:</p>
-                  <p>
-                    Sauka Kahuta, Minna, Niger State
-                  </p>
+                  <p>Sauka Kahuta, Minna, Niger State</p>
                 </div>
-                <div className="b-date">
+                {/* <div className="b-date">
                   <p>Date of Birth:</p>
                   <p>June 17th, 1998</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  ));
+  </div>
+));
 
 export default Banner;
 const styles = {

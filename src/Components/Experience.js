@@ -5,11 +5,11 @@ const Experience = React.forwardRef(({}, myref) => (
     <div className="experience-title">
       <p>Experience</p>
     </div>
-    <div className="experience-content">
+    <div className="experience-content details-content">
       <div className="content-card exp-content">
         <div>
-          <p>June 2022 - Present</p>
-          <p>Junior web Developer</p>
+          <p>June 2022 - Oct. 2022</p>
+          <p>Software Engineering Intern</p>
         </div>
 
         <div>
@@ -25,7 +25,7 @@ const Experience = React.forwardRef(({}, myref) => (
       <div className="content-card exp-content">
         <div>
           <p>Aug. 2020 - Nov. 2021</p>
-          <p>Junior web developer</p>
+          <p>Web development Intern</p>
         </div>
 
         <div>

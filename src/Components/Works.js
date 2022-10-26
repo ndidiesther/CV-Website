@@ -2,17 +2,17 @@ import React from "react";
 import Phone from "../Images/phone.png";
 import Rider from "../Images/max_logo.svg";
 import Clothing from "../Images/brown-cowboy.png";
-import { Link } from "react-router-dom";
+
 
 const Works = React.forwardRef(({}, myref) => (
   <div ref={myref} className="experience">
     <div className="experience-title">
       <p>Portfolio</p>
     </div>
-    <div className="experience-content">
+    <div className="experience-content portfolio">
       <a href="https://phoneecommerce-app.netlify.app/">
-        <div className="content-card">
-          <div className="port_content">
+        <div className="content-card phone_img">
+          <div className="port_content ">
             <img src={Phone} />
           </div>
           <div>Phone E-commerce Shop</div>
@@ -31,7 +31,8 @@ const Works = React.forwardRef(({}, myref) => (
       <a href="https://delight-clothing.netlify.app/">
         <div className="content-card ">
           <div className="port_content">
-            <img className="max_rider" src={Clothing} />
+
+            <img className="delight_clothing" src={Clothing} />
           </div>
           <div>Delight Clothing</div>
         </div>
